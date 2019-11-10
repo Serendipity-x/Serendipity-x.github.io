@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>my hobbies</title>
+		<style type="text/css">
+			body{
+				margin: auto;
+			}
+			.main{
+				/*display: flex;*/
+				width: 1000px;
+				height: 1400px;
+				/*flex-direction: column;*/
+				background-color: lightblue;
+				margin: auto;
+			}
+			.flex{
+				width: 870px;
+				height: 450px;
+				margin: auto;
+				background-color:rgb(248,248,255,0.8);
+				border: 0.2px solid white;
+			}
+			.show{
+				width: 300px;height: 300px;
+				border-radius: 100%;
+				background-color: rgb(245,255,250,0.9);
+				text-align: center;
+				
+				
+			}
+			#yuan1{
+				position: absolute;
+				margin-left: 50px;
+				margin-top: 60px;
+			}
+			#yuan2{
+				position: absolute;
+				margin-left: 520px;
+				margin-top: 60px; 
+				background: url(img/观山海1.jpg);
+			}
+			#yuan3{
+				position: absolute;
+				margin-left: 50px;
+				margin-top: 60px;
+
+			}
+			
+		</style>
+	</head>
+	<body>
+		<!--第一个展示框-->
+		<div class="main"> 
+			<div class="flex" style="position:relative;background: url(img/烟花3.jpg);background-repeat: no-repeat;background-size: 100%;">
+				<div class="show" id="yuan1">
+					<font color="#D02090" size="6" style="font-family: elephant;"><br>shoot</font>
+					<font color="#8B8989" size="5" style="font-family: elephant;">
+						<p>
+							Discover the world through photography
+						</p>
+					</font>
+					
+				</div>
+			</div>
+		<!--第二个展示框-->	
+			<div class="flex" style="position:relative;">
+				<div class="show" id="yuan2"></div>
+				<div id="write">
+					<font size="7" color="#FFC1C1" style="font-family: elephant;">
+						<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shows My Hobbies</p>
+					</font>
+					<font size="5" color="#8B8989" style="font-family: elephant;">
+						<p>&nbsp;&nbsp;我的爱好算比较广泛的了.但是大多与艺术
+						<br><br>&nbsp;&nbsp;以及中国的古典文化相关联.
+						<br><br>&nbsp;&nbsp;比如水墨画,书法,古琴等.
+						</p>
+					</font>
+				</div>
+				</div>
+				
+		<!--第三个展示框-->	
+			<div class="flex" style="background: url(img/琴.jpg);background-repeat: no-repeat;background-size: 100%;">
+				<div class="show" id="yuan3">
+					<font color="#D02090" size="6" style="font-family: elephant;"><br><br>古琴</font>
+					<font color="#8B8989" size="5" style="font-family: elephant;">
+						<p>
+							再现高山流水之音
+						</p>
+					</font>
+				</div>
+			</div>
+			
+		</div>
+	</body>
+</html>
