@@ -1,0 +1,109 @@
+body {
+				margin: auto;
+				background-color:#cd3917;
+				max-width: 1080px;
+			}
+			.dh {
+				border-collapse: collapse;
+				width: 100%;
+				height: 60px;
+				text-align: center;
+				table-layout: fixed;
+				font-size: 13px;
+				border-color: gainsboro;
+			}
+			
+			a[title="1"] {
+				text-decoration: none;
+				color: black;
+			}
+			
+			a:hover[title="1"] {
+				color: orangered;
+				background-color: white;
+			}
+			
+			.flex-container {
+				display: flex;
+				width: 100%;
+				height: 900px;
+				background-color: #ed8848;
+				border-color: gainsboro;
+				border-style: groove;
+				border-width: 1px;
+				margin-top: 10px;
+				flex-wrap: wrap;
+				justify-content: space-around;
+			}
+			.flex-item {
+				background-color: whitesmoke;
+				background-color: rgb(255,255,255,0.7);
+				width: 235px;
+				height: 400px;
+				margin: 5px;
+				border-style: solid;
+				border-width: 1px;
+				border-color: gainsboro;
+			}
+			.flex-item:hover{
+				border-color:#c8142b;
+				border-width: 3.5px;
+			}
+			.photo{
+				height: 250px;
+			}
+			.photo_{
+				width: 235px;
+				margin: 0px;
+			}
+			.money{
+				height: 40px;
+			}
+			.money_1{
+				float: left;
+				color: orangered;
+				font-weight: bold;
+				font-size: 23px;
+				padding-top: 7px;
+				padding-left: 4px;
+			}
+			.money_2{
+				float: right;
+				color: gray;
+				font-size: 14px;
+				margin: 10px;
+			}
+			.js{
+				height: 75px;
+				
+			}
+			.js_1{
+				margin: 5px;
+			}
+			.js_2{
+				margin: 5px;
+			}
+			.tb_1{
+				float: left;
+				margin-left: 8px;
+			}
+			.tb_2{
+				float: right;
+				margin-right: 10px;
+			}
+			a[title="2"]{
+				font-size: 13px;
+				text-decoration: none;
+				color: black;
+			}
+			a:hover[title="2"]{
+				text-decoration: underline;
+				color: orangered;
+			}
+			a[title="3"]{
+				font-size: 13px;
+				color: gray;
+			}
+			a:hover[title="3"]{
+				color: orangered;
+			}
