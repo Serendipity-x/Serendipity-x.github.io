@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>登录表单</title>
+		
+		<style type="text/css">
+			body{
+				margin: 30px auto;
+				width: 50%;
+			}
+			.div{
+				width: 500px;height: 400px;
+				border: 2px solid #556B2F;
+				border-style: dotted;
+				text-align: center;
+			}
+			#tab{
+				border-collapse: collapse;
+				width: 300px;
+				text-align: center;
+				clear: left;
+				margin-left: 50px;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<div class="div">
+			<font size="5" style="font-family: elephant;">Add New Student</font>
+			
+			<form name="myform">
+				<br />
+				Name:<input style="color: royalblue;border: 1;" name="xingming" type="text" />
+				Number:<input style="color: royalblue;border: 1;" name="xuehao" type="text" />
+				
+			</form>
+			<button onclick="createNewTr()">Submit</button>
+			<br /><br />
+			<table id="tab" border="1px">
+				<tbody>
+					<tr>
+						<th>序号</th>
+						<th>姓名</th>
+						<th>学号</th>
+						<th>清空</th>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>张三</td>
+						<td>20170555001</td>
+						<td>
+							<a href="javascript:void(0)" onclick="deleteRow(this)">删除</a>
+						</td>
+					</tr>
+					<script type="text/javascript">
+						var count = 2;
+						function createNewTr() {
+						tab = document.getElementById("tab");
+						newTr = document.createElement("tr");
+						tab.appendChild(newTr);
+
+						td1 = document.createElement("td");
+						newTr.appendChild(td1);
+						td1.innerHTML = count;
+
+						td2 = document.createElement("td");
+						newTr.appendChild(td2);
+						td2.innerHTML = document.myform.xingming.value;
+
+						td3 = document.createElement("td");
+						newTr.appendChild(td3);
+						td3.innerHTML = document.myform.xuehao.value;
+
+						td4 = document.createElement("td");
+						newTr.appendChild(td4);
+						td4.innerHTML = "<a href='javascript:void(0)' onclick='deleteRow(this)'>删除</a>";
+						count = count + 1;
+					}
+
+					function deleteRow(aaa) {
+						var delRow = aaa.parentNode.parentNode;
+						delRow.parentNode.removeChild(delRow);
+					}
+					</script>
+				</tbody>
+			</table>
+		</div>
+	</body>
+</html>
