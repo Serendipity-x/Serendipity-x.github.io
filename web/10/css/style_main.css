@@ -1,0 +1,248 @@
+
+body{
+	/*height: 3000px;*/
+	background-color: #093a43;
+	margin:auto;
+}
+.ro{
+	width: 100%;height: 1000px;
+	background: url(../img/intro-bg.jpg);
+	opacity: 0.2;
+	position: relative;
+	
+}
+.title_show{
+	width: 100%;height: 1000px;
+	position: absolute;
+	margin-top: -1000px;
+}
+
+.daohang{
+	height: 70px;
+	width: 100%;
+	position: fixed;
+	z-index: 2;
+	background-color: rgba(0, 34, 51,0.9);
+}
+#logimage{
+	width: 50px;
+	padding-left: 150px;
+	padding-top: 10px;
+	float: left;
+}
+#logtitle{
+	float:right;
+	font-family: elephant;
+	padding-top: 10px;
+	padding-left: 15px;
+	font-size:20px;
+	float: left;
+	color: rgb(217, 217, 217,0.9);
+	
+}
+nav{
+	width:500px;height: 70px;
+	margin-left:700px;
+	float: left;
+}
+nav ul{
+	list-style-type: none;
+	padding: 22px;
+	width: 750px;
+	margin: 0;
+	/*background-color: whitesmoke;*/
+	text-align: center;
+}
+nav ul li a:link,a:visited{
+	width: 50px;
+	font-weight: 500;
+	font-size: 20px;
+	font-family: elephant;
+	color: rgb(71, 209, 209);
+	text-decoration: none;
+	font-size: 20px;
+}
+nav ul li a:active,a:hover{
+	background-color:rgb(20, 82, 82,0.8);  /*鼠标放上去的效果*/
+}
+nav ul li{
+	display: inline;
+	/*padding:3px ;*/
+	padding-left: 25px;
+}
+.intro-text {
+	padding-top: 17%;
+	padding-left: 800px;
+}
+.brand {
+	color: #25BAD0;
+	font-weight: 700;
+	font-size: 50px;
+}
+.intro-text p {
+	font-size: 20px;
+	margin-bottom: 40px;
+	margin-top: 20px;
+	margin-left: 100px;
+	text-transform: uppercase;
+	color: rgba(255,255,255,0.9);
+}
+
+.btn-default {
+	color: #25BAD0;
+	background-color: transparent;
+	border: 2px solid #1EBAD0;
+	padding: 20px 41px;
+	margin: 0;
+	font-size: 20px;
+	border-radius: 0;
+	text-transform: uppercase;
+}
+.btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active {
+	color: #053740;
+	background-color: #25BAD0;
+	border-color: #25BAD0;
+}
+.btn:active, .btn.active {
+	background-image: none;
+	outline: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+a:link,a:visited,a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
+	outline: none;
+	outline-offset: none;
+	text-decoration: none;
+}
+
+/*--------------------------------中间部分展示框-------------------------------------*/
+.medium{
+	width: 100%;height: 800px;
+	background-color: #093a43;
+	margin: 0px;
+	text-align: center;
+	margin-top: -32px;
+	
+}
+.title{
+	font-family: elephant;
+	color: #25BAD0;
+	padding-top: 80px;
+	font-size: 48px;
+}
+.nr{
+	font-family: elephant;
+	color: darkgray;
+	font-size: 18px;
+	line-height: 35px;
+}
+.m_show{
+	width: 270px;height: 500px;	
+	float: left;
+	display: block;
+	margin-top: 40px;
+	margin-left: 70px;	
+}
+.mn{
+	width: 180px;height: 180px;
+	border-radius: 100%;
+	background-color:#1EBAD0 ;
+	margin: auto;
+}
+.im{
+    width: 60px;height: 60px;
+    margin-top: 55px;
+    margin-left: 8px;
+}
+.im_title{
+	color:#1EBAD0 ;
+	font-size: 25px;
+	margin-top: 100px;
+}
+
+/*------------------------------运营策略的展示-----------------------------------------*/
+.y_show{
+	width: 100%;height: 1100px;
+	background-color: #1EBAD0;
+	text-align: center;
+	margin-top: -32px;
+}
+.y_t{
+	padding-top: 80px;
+	font-family: elephant;
+	font-size: 48px;
+	color: rgb(242, 242, 242);
+}
+.yr{
+	font-family: elephant;
+	color: rgb(242, 242, 242);
+	font-size: 18px;
+	line-height: 35px;
+}
+#y_image{
+	width:650px ;height: 400px;
+	float: left;
+	margin-top: 72px;
+	margin-left: 180px;
+}
+.word{
+	width: 800px;height: 610px;
+/*	background-color: #87CEEB;*/
+	float: left;
+	margin-top: 37px;
+	margin-left: 50px;
+	text-align: left;
+}
+.y_title{
+	color: #093a43;
+	font-family:宋体;
+	font-size: 30px;
+
+}
+.y_word{
+	 color: rgb(242, 242, 242);
+	font-size: 18px;
+	line-height: 35px;
+}
+/*-----------------------------------尾部展示---------------------------------------------------*/
+.foot{
+	width: 100%;height: 450px;
+	background-color: #093A43;
+	position: relative;
+}
+.f_show{
+    display: block;
+	width: 130px;height: 130px;
+	border-radius: 100%;
+	margin-top: 70px;
+	margin-left: 100px;
+	background-color:#1799B0 ;
+	float: left;
+
+}
+
+#footer{
+	margin-top: 423px;
+	position: absolute;
+	margin-top: 400px;
+	margin-left: 40%;
+}
+.foot_link{
+	width: 80px;height: 80px;
+	background-color: rgb(229, 255, 255,0.8);
+	border-radius: 80%;
+	margin: auto;
+
+}
+.foot_link a:link,a:visited{
+	display: block;
+	width: 50px;height: 50px;
+	text-decoration: none;
+	font-size: 15px;
+	color:rgb(71, 209, 209);
+}
+
+
+
+
+
