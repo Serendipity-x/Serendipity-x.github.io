@@ -5,29 +5,29 @@ body{
 	margin:auto;
 }
 .ro{
-	width: 100%;height: 1000px;
+	width: 100%;height: 800px;
 	background: url(../img/intro-bg.jpg);
 	opacity: 0.2;
 	position: relative;
 	
 }
 .title_show{
-	width: 100%;height: 1000px;
+	width: 100%;height: 800px;
 	position: absolute;
-	margin-top: -1000px;
+	margin-top: -800px;
 }
 
 .daohang{
-	height: 70px;
+	height: 60px;
 	width: 100%;
 	position: fixed;
 	z-index: 2;
 	background-color: rgba(0, 34, 51,0.9);
 }
 #logimage{
-	width: 50px;
-	padding-left: 150px;
-	padding-top: 10px;
+	width: 40px;
+	padding-left: 130px;
+	padding-top: 8px;
 	float: left;
 }
 #logtitle{
@@ -35,20 +35,20 @@ body{
 	font-family: elephant;
 	padding-top: 10px;
 	padding-left: 15px;
-	font-size:20px;
+	font-size:16px;
 	float: left;
 	color: rgb(217, 217, 217,0.9);
 	
 }
 nav{
-	width:500px;height: 70px;
-	margin-left:700px;
+	width:450px;height: 50px;
+	margin-left:500px;
 	float: left;
 }
 nav ul{
 	list-style-type: none;
-	padding: 22px;
-	width: 750px;
+	padding: 20px;
+	width: 700px;
 	margin: 0;
 	/*background-color: whitesmoke;*/
 	text-align: center;
@@ -56,11 +56,11 @@ nav ul{
 nav ul li a:link,a:visited{
 	width: 50px;
 	font-weight: 500;
-	font-size: 20px;
+	font-size: 16px;
 	font-family: elephant;
 	color: rgb(71, 209, 209);
 	text-decoration: none;
-	font-size: 20px;
+
 }
 nav ul li a:active,a:hover{
 	background-color:rgb(20, 82, 82,0.8);  /*鼠标放上去的效果*/
@@ -71,8 +71,8 @@ nav ul li{
 	padding-left: 25px;
 }
 .intro-text {
-	padding-top: 17%;
-	padding-left: 800px;
+	padding-top: 16.5%;
+	padding-left: 525px;
 }
 .brand {
 	color: #25BAD0;
@@ -92,9 +92,9 @@ nav ul li{
 	color: #25BAD0;
 	background-color: transparent;
 	border: 2px solid #1EBAD0;
-	padding: 20px 41px;
+	padding: 15px 35px;
 	margin: 0;
-	font-size: 20px;
+	font-size: 18px;
 	border-radius: 0;
 	text-transform: uppercase;
 }
@@ -128,7 +128,7 @@ a:link,a:visited,a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn
 	font-family: elephant;
 	color: #25BAD0;
 	padding-top: 80px;
-	font-size: 48px;
+	font-size: 40px;
 }
 .nr{
 	font-family: elephant;
@@ -137,14 +137,15 @@ a:link,a:visited,a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn
 	line-height: 35px;
 }
 .m_show{
-	width: 270px;height: 500px;	
+	width: 200px;height: 500px;	
 	float: left;
 	display: block;
+	/*background-color: white;*/
 	margin-top: 40px;
 	margin-left: 70px;	
 }
 .mn{
-	width: 180px;height: 180px;
+	width: 150px;height: 150px;
 	border-radius: 100%;
 	background-color:#1EBAD0 ;
 	margin: auto;
@@ -170,7 +171,7 @@ a:link,a:visited,a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn
 .y_t{
 	padding-top: 80px;
 	font-family: elephant;
-	font-size: 48px;
+	font-size: 40px;
 	color: rgb(242, 242, 242);
 }
 .yr{
@@ -180,10 +181,10 @@ a:link,a:visited,a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn
 	line-height: 35px;
 }
 #y_image{
-	width:650px ;height: 400px;
+	width:450px ;height: 300px;
 	float: left;
 	margin-top: 72px;
-	margin-left: 180px;
+	margin-left: 100px;
 }
 .word{
 	width: 800px;height: 610px;
@@ -195,8 +196,8 @@ a:link,a:visited,a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn
 }
 .y_title{
 	color: #093a43;
-	font-family:宋体;
-	font-size: 30px;
+	font-family:'宋体';
+	font-size: 27px;
 
 }
 .y_word{
@@ -214,7 +215,7 @@ a:link,a:visited,a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn
     display: block;
 	width: 130px;height: 130px;
 	border-radius: 100%;
-	margin-top: 70px;
+	margin-top: 100px;
 	margin-left: 100px;
 	background-color:#1799B0 ;
 	float: left;
